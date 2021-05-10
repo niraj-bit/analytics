@@ -58,5 +58,6 @@
   margin-right: 35px;
 }
 img{
-  background-image:"/images/background-top.jpg";
+  background-image: url("../images/background-top.png");
+  height: 815;
 }

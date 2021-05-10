@@ -2,6 +2,15 @@ import React from "react";
 import "./Header.css";
 
 export const Header = () => {
+
+  var sectionStyle = {
+    width: "100%",
+    height: "915px",
+    backgroundImage: `url(../images/background-top.jpeg)`,
+    backgroundSize: 'cover',
+    overflow: 'hidden',
+  };
+
   return (
     <div>
       {/* logo */}
@@ -60,7 +69,7 @@ export const Header = () => {
     </div> */}
 
     {/* nav */}
-    <div class="img">
+    <div style={ sectionStyle }>
     <div class="container">
     <nav class="navbar navbar-expand-lg">
   <div class="container-fluid" alt="">
