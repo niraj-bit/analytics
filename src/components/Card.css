@@ -6,3 +6,10 @@
 .lead{
     margin-top: 100px;
 }
+div h2{
+    color:#172755;
+    font-size: 40px;
+    font-style: bold;
+    line-height: 47px;
+    fill:#172755 ;
+}

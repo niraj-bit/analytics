@@ -1,0 +1,31 @@
+/* img{
+    background-image: url("../images/bottom.jpg");
+    height: 815;
+  } */
+/* 
+div edit{
+    margin-top: 255px;
+    margin-left: 490px;
+    margin-right: 490px;
+} */
+/* .card-img-top{
+    background-color:#0F1F4B;
+} */
+.col{
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 10px;
+}
+
+.bot3{
+    margin-top: 450px;
+    padding-top: 30px;
+}
+.para{
+    margin-top: 200px;
+}
+.para h3{
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+}

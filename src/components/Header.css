@@ -1,50 +1,20 @@
 
-
-/* html,body {
-    height:100%;
+  .logo{
+    margin-top: 50px;
   }
-  
-  .first {
-    height:100vh;
-    min-height:400px;
-    background-size:cover;
-    background-image:"images/background-top.jpg/";
+  .nav-link {
+    color:#8794BA ;
   }
-  
-  .affix {
-    background-color: rgb(44, 8, 8);
-    -webkit-transition:padding 0.2s ease-out;
-    -moz-transition:padding 0.2s ease-out;  
-    -o-transition:padding 0.2s ease-out;         
-    transition:padding 0.2s ease-out;
+  .lead{
+    margin-top: 30px;
   }
-  
-  @media (min-width:768px) {
-      .affix-top {
-        /* navbar style at top */
-        /* background-color:transparent;
-        border-color:rgb(161, 9, 9);
-        padding: 15px;
-        -webkit-transition:all 0.5s ease;
-        -moz-transition:all 0.5s ease; 
-        -o-transition:all 0.5s ease;         
-        transition:all 0.5s ease;  
-      }
-  }
-  
-  nav .navbar-nav .nav-link,
-  nav .navbar-brand {
-     color: #000;
-  }
-  
-  section {
-    height:calc(90% - 50px);
-    height: 90vh;
-  } */ 
-
-
   #navbarSupportedContent{
-    margin-left:20%;
+    margin-left:15%;
+    color:#8794BA
+  }
+  a{
+    color: white;
+    text-decoration: none;
   }
   li {
     display: inline;
@@ -52,12 +22,36 @@
 
 .btn {
   border-radius: 15px;
-  width: 100%;
+  width: 150%;
+  height: 19;
+  top: 10.5;
+  left: 53;
+  color:#8794BA
 }
 .Login{
   margin-right: 35px;
 }
-img{
-  background-image: url("../images/background-top.png");
-  height: 815;
+
+.img{
+  padding-top: 50in;
+}
+
+.load{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+h1{
+  color: white;
+  font-style: bold;
+}
+div p{
+  color:#8794BA;
+
+}
+
+.limg{
+  padding-top: 90px;
+  border-radius: 20px;
+  width: 520px;
+  height: 1000px;
 }

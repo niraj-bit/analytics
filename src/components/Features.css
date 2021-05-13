@@ -2,13 +2,26 @@ p{
     margin-top: 20px;
     text-align: center;
     color:#8794BA;
+font-size: 18px;
+line-height: 27px;
+Line-height: 150%;
+align-items: Center;
+vertical-align: Top
 }
 
 /* .col-lg-4{
      justify-content: center;
  } */
 
- h4{
+div h4{
+    color: #172755;
     margin-top: 20px;
+   font-style: bold;
+    font-size: 16px;
+    line-height: 19px;
  }
+ div h3{
+     color:#172755;
+    font-size: 40px;
+    font-style: bold;    }
 
