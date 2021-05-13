@@ -106,7 +106,7 @@ export const Header = () => {
             <div class="limg">
               <img 
                 class="featurette-image img-fluid mx-auto"
-                src="/images/b1.jpg"
+                src="/images/top2.png"
                 alt="Generic placeholder image"
                 
               />
