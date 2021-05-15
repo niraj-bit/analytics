@@ -1,53 +1,31 @@
-.lines {
-  margin-top: 50px;
-  padding: 80px;
-  width: 440px;
-  height: 340px;
-  margin-bottom: 297px;
-  border-radius: 30px;
-  opacity: 70%;
-}
-.box {
-  background-color: #0f1f4b;
-  opacity: 70%;
-  border-radius: 30px;
-}
-.middle {
-  background-color: cornsilk;
-  opacity: 70%;
-  border-radius: 30px;
-}
-
-.bot3 {
-  margin-top: 450px;
-  padding-top: 30px;
+/* img{
+    background-image: url("../images/bottom.jpg");
+    height: 815;
+  } */
+/* 
+div edit{
+    margin-top: 255px;
+    margin-left: 490px;
+    margin-right: 490px;
+} */
+/* .card-img-top{
+    background-color:#0F1F4B;
+} */
+.col{
+    margin-top: 50px;
+    padding-top: 20px;
+    height: 10px;
 }
 
-.para h2 {
-  color: white;
-  font-style: bold;
-  margin: 3220px 490px 490px 900;
-  width: 620px;
-  height: 53px;
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 47px;
-  text-align: Center;
-  vertical-align: Top;
+.bot3{
+    margin-top: 450px;
+    padding-top: 30px;
 }
-
-.para p {
-  margin: 3303px 270px 270px 817px;
-  width: 1060px;
-  height: 53px;
-  display: flex;
-  justify-content: center;
-  font-weight: regular;
-
-  font-size: 18px;
-  line-height: 27px;
-  text-align: Center;
-  vertical-align: Top;
+.para{
+    margin-top: 200px;
+}
+.para h3{
+    color: white;
+    font-size: 40px;
+    font-style: bold;
 }

@@ -3,9 +3,9 @@ import "./Header.css";
 
 export const Header = () => {
   var sectionStyle = {
-    width: "1600px",
-    height: "815px",
-    backgroundImage: `url(../images/top1.jpg)`,
+    width: "100%",
+    height: "915px",
+    backgroundImage: `url(../images/top.jpg)`,
     backgroundSize: "cover",
     overflow: "hidden",
   };
@@ -14,16 +14,20 @@ export const Header = () => {
     <div>
       {/* nav */}
       <div style={sectionStyle}>
-      <div class="header">
-  <img src="images/log.svg" alt="logo" />
-  <h1>ANALYTICS</h1>
-</div>
         <div class="container">
           <nav class="navbar navbar-expand-lg">
-            
- 
-               
-            
+            <div class="container-fluid" alt="">
+              <a class="navbar-brand" href="#">
+                <img
+                  class="logo"
+                  src="/images/log.svg"
+                  alt=""
+                  width="30"
+                  height="24"
+                  class="d-inline-block align-text-top"
+                />
+                ANALYTICS
+              </a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -71,12 +75,13 @@ export const Header = () => {
                     </a>
                   </div>
                   <div class="nav-item">
-                    <a href="#" class="btn">
+                    <a href="#" class="btn btn-outline-primary sign-up-btn">
                       Sign up
                     </a>
                   </div>
                 </div>
               </div>
+            </div>
 
             {/* login */}
           </nav>
@@ -97,22 +102,19 @@ export const Header = () => {
               </p>
               </div>
             </div>
-            
-           
-              </div>
-            
-          
-          <div class="limg">
+            <div class="col-md-5">
+            <div class="limg">
               <img 
                 class="featurette-image img-fluid mx-auto"
-                src="/images/top2.png"
+                src="/images/b1.jpg"
                 alt="Generic placeholder image"
                 
               />
               </div>
-              </div>
-              </div>
-        
+            </div>
+          </div>
+          </div>
+          </div>
   
   );
 };

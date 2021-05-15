@@ -1,35 +1,7 @@
 
-  /* .navbar-brand{
-    display: inline;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap; */
-
-  /* }  */
-  .header img{
-    height: 40px;
-    width: 40px;
- margin-top: 50px;
- margin-left: 210px;
- float: left;
-    
+  .logo{
+    margin-top: 50px;
   }
-  .header h1{
-    color: white;
-    width:117.45px ;
-    height:16.2px ;
-    margin-top: 62.01px;
-    margin-left: 262.63px;
-Top :12.01px;
-Left :52.63px;
-    position: relative; 
-  
-  }
-
-  
   .nav-link {
     color:#8794BA ;
   }
@@ -37,13 +9,12 @@ Left :52.63px;
     margin-top: 30px;
   }
   #navbarSupportedContent{
-    margin-left:96px;
-    
-    width: 65px;
-    height: 19px;
-    padding: 38px 38px;
+    margin-left:15%;
     color:#8794BA
-  
+  }
+  a{
+    color: white;
+    text-decoration: none;
   }
   li {
     display: inline;
@@ -55,15 +26,15 @@ Left :52.63px;
   height: 19;
   top: 10.5;
   left: 53;
-}
-.sign-up-btn{
-  color:#8794BA ;
+  color:#8794BA
 }
 .Login{
   margin-right: 35px;
 }
 
-
+.img{
+  padding-top: 50in;
+}
 
 .load{
   margin-top: 150px;
@@ -79,11 +50,8 @@ div p{
 }
 
 .limg{
-
+  padding-top: 90px;
   border-radius: 20px;
-  width: 873x;
-  height: 555px;
- 
-  margin-left: 840px;
-
+  width: 520px;
+  height: 1000px;
 }
