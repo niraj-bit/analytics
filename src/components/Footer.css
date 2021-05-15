@@ -29,3 +29,116 @@ div edit{
     font-size: 40px;
     font-style: bold;
 }
+.first{
+    background-color:#0F1F4B;
+    width: 340;
+    height: 440;
+}
+.first h4{
+    color: white;
+    width: 94;
+    height: 35;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+}
+.hori0{
+    color:#2A407C;
+}
+.user0{
+    text-align: center;
+    color:#8794BA;
+    padding-top: -100px;
+}
+.first h2{
+    color: white;
+    width: 87;
+    height: 70;
+text-align: center;
+font-weight: bold;
+}
+
+
+.middle{
+    background-color:white;
+    width: 340;
+    height: 440;
+}
+
+.middle h4{
+    color:#172755;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.middle h2{
+    color: #172755;
+    width: 87;
+    height: 70;
+text-align: center;
+font-weight: bold;
+}
+
+
+.hori1{
+    color:#D3D9E9;
+}
+.last{
+    background-color:#0F1F4B;
+    width: 340;
+    height: 440;
+}
+.last h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.last h2{
+    color: white;
+    width: 87;
+    height: 70;
+text-align: center;
+font-weight: bold;
+}
+
+.pm{
+    text-align: center;
+    color:#8794BA;
+    }
+
+/* .btn2{
+    border-radius: 15px;
+    border-color: #8794BA;
+    padding-left: 30;
+    margin-right: 30;
+    width: 50%;
+    height: 19;
+    top: 10.5;
+    left: 53;
+
+} */
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border:none;
+    border-radius: .25rem;
+}
+
+
+element.style {
+    width: 340px;
+    height: 440px;
+}
+
+.div-row{
+    width: 340;
+    height: 440;
+}
+

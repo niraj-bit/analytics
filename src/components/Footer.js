@@ -16,31 +16,66 @@ export const Footer = () => {
     return (
       <div>
       <div style={sectionStyle}> 
-      <div class="container"
-      >
+      <div class="container1">
       <div class="para">
       
       <h3 class="text-center"><strong>Pricing plans</strong></h3>
 <p class="text-center">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 </div>
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="/images/topu.jpg" class="card-img-top" alt="..."/>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="/images/t2.jpg" class="card-img-middle" alt="..."/>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="/images/topu.jpg" class="card-img-top" alt="..."/>
-    </div>
-  </div>
 
+  
+{/* <div class="row">
+  <div class="col-md-3 g-4">.col-md-3</div>
+  <div class="col-md-3 g-4">.col-md-3</div>
+  <div class="col-md-3 g-4">.col-md-3</div>
+</div> */}
+<div class="container">
+<div class="row">
+  <div class="col-md-3 g-4">
+    <div class="card">
+    <div class="first">
+      <div class="card-body">
+      <h4 >Starter</h4>
+      <div class="user0">upto 3 user</div>
+      <hr class="hori0"/>
+      <h2>$55</h2>
+      <div class="pm">per month</div>
+      {/* </div> */}
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 g-4">
+    <div class="card">
+    <div class="middle">
+      <div class="card-body">
+      <h4 >Standard</h4>
+      <div class="user0">upto 20 user</div>
+      <hr class="hori1"/>
+      <h2>$55</h2>
+      <div class="pm">per month</div>
+     
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-md-3 g-4">
+    <div class="card">
+    <div class="last">
+      <div class="card-body">
+      <h4>Premium</h4>
+      <div class="user0">upto 200 user</div>
+      <hr class="hori0"/>
+      <h2>$55</h2>
+      <div class="pm">per month</div>
+      
+      </div>
+    </div></div>
+  </div>
 </div>
+</div>
+
+
 
 {/* footer nav */}
 
