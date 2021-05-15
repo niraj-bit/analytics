@@ -7,8 +7,8 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 
 export const Footer = () => {
   var sectionStyle = {
-    width: "100%",
-     height: "915px",
+    width: "1600px",
+     height: "1208px",
      backgroundImage: `url(../images/bottom.jpg)`,
      backgroundSize: "cover",
      overflow: "hidden",
@@ -20,10 +20,12 @@ export const Footer = () => {
       >
       <div class="para">
       
-      <h3 class="text-center"><strong>Pricing plans</strong></h3>
+      <h2 class="text-center"><strong>Pricing plans</strong></h2>
+      <div class="lead">
 <p class="text-center">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 </div>
-<div class="row row-cols-1 row-cols-md-3 g-4">
+</div>
+{/* <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
       <img src="/images/topu.jpg" class="card-img-top" alt="..."/>
@@ -38,9 +40,27 @@ export const Footer = () => {
     <div class="card h-100">
       <img src="/images/topu.jpg" class="card-img-top" alt="..."/>
     </div>
+  </div> */}
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3">
+    <div class="box">
+      First, but last
+    </div></div>
+    <div class="col-md-3">
+    <div class="middle">
+      Second, but unordered
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="box">
+      Third, but first
+    </div>
+    </div>
   </div>
-
 </div>
+
+
 
 {/* footer nav */}
 
