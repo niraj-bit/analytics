@@ -20,14 +20,12 @@ export const Footer = () => {
             <h3 class="text-center">
               <strong>Pricing plans</strong>
             </h3>
-            <div class="para">
             <p class="text-center">
               Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
               eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
               amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
               mauris condimentum nibh.
             </p>
-            </div>
           </div>
 
           {/* <div class="row">
@@ -65,7 +63,7 @@ export const Footer = () => {
                       <hr class="hori1" />
                       <h2>$55</h2>
                       <div class="pm">per month</div>
-                      <div class="btn3">
+                      <div class="btn2">
                         <a href="#" class="btn btn-danger">
                           Order
                         </a>
@@ -108,8 +106,8 @@ export const Footer = () => {
                     src="/images/log.svg"
                     alt=""
                     width="30"
-                    height="30"
-                    class="d-inline-block align-text-center"
+                    height="24"
+                    class="d-inline-block align-text-top"
                   />
                   ANALYTICS
                 </a>
