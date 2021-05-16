@@ -62,19 +62,11 @@ div p {
   color: #8794ba;
 }
 
-/* .limg {
+.limg {
   border-radius: 30px;
   margin-left: 535px;
   margin-top: -500px;
-} */
+}
 .img-fluid{
-  max-height:900px;
-  margin-top: 180px;
-}
-.myImageBox{
-  margin: 0%;
-}
-
-.myBannerImg{
-  padding: 0%;
+  max-height:800px;
 }
