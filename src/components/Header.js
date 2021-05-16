@@ -4,7 +4,7 @@ import "./Header.css";
 export const Header = () => {
   var sectionStyle = {
     width: "100%",
-    height: "715px",
+    height: "815px",
     backgroundImage: `url(../images/top.jpg)`,
     backgroundSize: "cover",
     overflow: "hidden",
@@ -23,7 +23,7 @@ export const Header = () => {
                   src="/images/log.svg"
                   alt=""
                   width="40"
-                  height="40"                
+                  height="40"
                   class="d-inline-block align-text-top"
                 />
                 <div class="head">ANALYTICS</div>
@@ -86,34 +86,33 @@ export const Header = () => {
             {/* login */}
           </nav>
         </div>
-      {/* card */}
-      
+        {/* card */}
+        <div class="container-fluid">
           <div class="row featurette">
-            <div class="col-md-5">
-            <div class="load">
-              <h1> 
-                Monitor your business <br /> on your real business
-              </h1>
-              <p class="lead">
-                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
-                id ligula porta felis euismod semper. Praesent commodo cursus
-                magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
-                ac cursus commodo.
-              </p>
+            <div class="col-md-7">
+              <div class="load">
+                <h1>
+                  Monitor your business <br /> on your real business
+                </h1>
+                <p class="lead">
+                  Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
+                  id ligula porta felis euismod semper. Praesent commodo cursus
+                  magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
+                  ac cursus commodo.
+                </p>
               </div>
             </div>
-            <div class="limg">
-            <div class="col-md-7">            
-              <img 
+            <div class="col-md-5 myBannerImg">
+              <img
                 class="featurette-image img-fluid ml-auto"
                 src="/images/top2.png"
-                alt="Generic placeholder image"             
+                alt="Generic placeholder image"
               />
-              </div>
             </div>
           </div>
-          </div>
-          </div>
-  
+        </div>
+      </div>
+    </div>
+
   );
 };
