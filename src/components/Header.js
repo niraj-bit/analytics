@@ -94,6 +94,7 @@ export const Header = () => {
               <h1> 
                 Monitor your business <br /> on your real business
               </h1>
+              
               <p class="lead">
                 Donec ullamcorper nulla non metus auctor fringilla. Vestibulum
                 id ligula porta felis euismod semper. Praesent commodo cursus

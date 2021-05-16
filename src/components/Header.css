@@ -9,9 +9,7 @@
   text-align: center;
 
 }
-.lead {
-  margin-top: 30px;
-}
+
 #navbarSupportedContent {
   margin-left:81.98px;
   color: #8794ba;
@@ -48,25 +46,28 @@ li {
   margin-right: 35px;
 }
 
+.limg {
+  border-radius: 30px;
+  margin-left: 535px;
+  margin-top: -450px;
+}
+.img-fluid{
+  max-height:800px;
+}
 
-
+ .lead {
+  margin-top: 30px;
+} 
 .load {
   margin-top: 150px;
   margin-left: 100px;
 }
+.load p{
+  color: #8794ba;
+  text-align:left;
+
+}
 h1 {
   color: white;
   font-style: bold;
-}
-div p {
-  color: #8794ba;
-}
-
-.limg {
-  border-radius: 30px;
-  margin-left: 535px;
-  margin-top: -500px;
-}
-.img-fluid{
-  max-height:800px;
 }

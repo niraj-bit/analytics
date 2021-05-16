@@ -63,7 +63,7 @@ export const Footer = () => {
                       <hr class="hori1" />
                       <h2>$55</h2>
                       <div class="pm">per month</div>
-                      <div class="btn2">
+                      <div class="btn3">
                         <a href="#" class="btn btn-danger">
                           Order
                         </a>
