@@ -7,7 +7,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 export const Footer = () => {
   var sectionStyle = {
     width: "100%",
-    height: "915px",
+    height: "715px",
     backgroundImage: `url(../images/bottom.jpg)`,
     backgroundSize: "cover",
     overflow: "hidden",
@@ -20,12 +20,14 @@ export const Footer = () => {
             <h3 class="text-center">
               <strong>Pricing plans</strong>
             </h3>
+            <div class="para">
             <p class="text-center">
               Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
               eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
               amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor
               mauris condimentum nibh.
             </p>
+            </div>
           </div>
 
           {/* <div class="row">
@@ -63,7 +65,7 @@ export const Footer = () => {
                       <hr class="hori1" />
                       <h2>$55</h2>
                       <div class="pm">per month</div>
-                      <div class="btn2">
+                      <div class="btn3">
                         <a href="#" class="btn btn-danger">
                           Order
                         </a>
@@ -106,8 +108,8 @@ export const Footer = () => {
                     src="/images/log.svg"
                     alt=""
                     width="30"
-                    height="24"
-                    class="d-inline-block align-text-top"
+                    height="30"
+                    class="d-inline-block align-text-center"
                   />
                   ANALYTICS
                 </a>

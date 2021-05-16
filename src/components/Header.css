@@ -36,20 +36,19 @@ li {
   height: 19;
   top: 10.5;
   left: 53;
-background-color: transparent;
+
   border-color: #8794ba;
 }
 .btn-primary{
   color: #8794ba;
+  background-color: transparent;
 }
 
 .Login {
   margin-right: 35px;
 }
 
-.img {
-  padding-top: 50in;
-}
+
 
 .load {
   margin-top: 150px;
@@ -64,8 +63,10 @@ div p {
 }
 
 .limg {
-  padding-top: 90px;
-  border-radius: 20px;
-  width: 520px;
-  height: 1000px;
+  border-radius: 30px;
+  margin-left: 535px;
+  margin-top: -400px;
+}
+.img-fluid{
+  max-height:800px;
 }

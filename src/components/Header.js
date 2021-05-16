@@ -4,7 +4,7 @@ import "./Header.css";
 export const Header = () => {
   var sectionStyle = {
     width: "100%",
-    height: "915px",
+    height: "715px",
     backgroundImage: `url(../images/top.jpg)`,
     backgroundSize: "cover",
     overflow: "hidden",
@@ -89,7 +89,7 @@ export const Header = () => {
       {/* card */}
       
           <div class="row featurette">
-            <div class="col-md-7">
+            <div class="col-md-5">
             <div class="load">
               <h1> 
                 Monitor your business <br /> on your real business
@@ -102,13 +102,12 @@ export const Header = () => {
               </p>
               </div>
             </div>
-            <div class="col-md-5">
             <div class="limg">
+            <div class="col-md-7">            
               <img 
-                class="featurette-image img-fluid mx-auto"
-                src="/images/b1.jpg"
-                alt="Generic placeholder image"
-                
+                class="featurette-image img-fluid ml-auto"
+                src="/images/top2.png"
+                alt="Generic placeholder image"             
               />
               </div>
             </div>
