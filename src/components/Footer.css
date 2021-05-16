@@ -18,8 +18,8 @@ div edit{
 }
 
 .bot3{
-    margin-top: 450px;
-    padding-top: 30px;
+    margin-top: 150px;
+    padding-top: 50px;
 }
 .para{
     margin-top: 200px;
@@ -107,17 +107,19 @@ font-weight: bold;
     color:#8794BA;
     }
 
-/* .btn2{
+ .btn1{
     border-radius: 15px;
     border-color: #8794BA;
-    padding-left: 30;
-    margin-right: 30;
     width: 50%;
     height: 19;
-    top: 10.5;
-    left: 53;
-
-} */
+} 
+.btn2{
+    margin-block-end: 30;
+    border-radius: 15px;
+    border-color: #8794BA;
+    width: 50%;
+    height: 19;
+}
 
 .card {
     position: relative;
@@ -131,14 +133,11 @@ font-weight: bold;
     border-radius: .25rem;
 }
 
-
-element.style {
-    width: 340px;
-    height: 440px;
+.btn-outline-primary {
+    border-color:#2A407C
 }
 
-.div-row{
-    width: 340;
-    height: 440;
+.hori2{
+    color:#2A407C;
+    
 }
-

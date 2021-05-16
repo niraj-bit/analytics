@@ -22,11 +22,11 @@ export const Header = () => {
                   class="logo"
                   src="/images/log.svg"
                   alt=""
-                  width="30"
-                  height="24"
+                  width="40"
+                  height="40"                
                   class="d-inline-block align-text-top"
                 />
-                ANALYTICS
+                <div class="head">ANALYTICS</div>
               </a>
               <button
                 class="navbar-toggler"
@@ -75,7 +75,7 @@ export const Header = () => {
                     </a>
                   </div>
                   <div class="nav-item">
-                    <a href="#" class="btn btn-outline-primary sign-up-btn">
+                    <a href="#" class="btn btn-primary sign-up-btn">
                       Sign up
                     </a>
                   </div>
