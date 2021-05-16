@@ -89,7 +89,7 @@ export const Header = () => {
         {/* card */}
         <div class="container-fluid">
           <div class="row featurette">
-            <div class="col-md-7">
+            <div class="col-md-5 col-lg-5">
               <div class="load">
                 <h1>
                   Monitor your business <br /> on your real business
@@ -102,7 +102,7 @@ export const Header = () => {
                 </p>
               </div>
             </div>
-            <div class="col-md-5 myBannerImg">
+            <div class="col-md-7 col-lg-7 myBannerImg">
               <img
                 class="featurette-image img-fluid ml-auto"
                 src="/images/top2.png"
